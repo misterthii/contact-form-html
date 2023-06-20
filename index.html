@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="JeremyHzn">
+    <meta name="description"
+        content="Formualire d'inscription au site, veuillez rentrer vôtre nom d'utilisateur, votre mail, un message pour l'administrateur, vôtre pays de résidence parmis ceux listé et accepter les Condition d'utilisation.">
+    <meta name="keywords"
+        content="inscription, email, nom d'utilisateur, pays, message, CGU, utilisateur, connexion, formulaire, informations d'inscription">
+    <meta name="referrer" content="origin">
+    <meta name="color-scheme" content="light dark">
+    <meta name="creator" content="JeremyHzn">
+    <meta name="googlebots" content="Googlebot">
+    <meta name="robots" content="index, follow">
+    <title>Formulaire d'inscription</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">lien de navigation</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Exercice débutant en HTML</h1>
+        <section>
+            <h2>Formulaire</h2>
+            <p>Forumulaire d'inscription sur le site !</p>
+        </section>
+        <section>
+            <h2>Vos informations</h2>
+            <form action="post">
+                <fieldset>
+                    <legend>Inscription</legend>
+                    <div>
+                        <label for="username">Prénom</label>
+                        <input type="text" id="username" placeholder="Nom d'utilisateur">
+                    </div>
+                    <div>
+                        <label for="mail">Email</label>
+                        <input type="email" id="mail" placeholder="Votre mail">
+                    </div>
+                    <div>
+                        <label for="message">Message à l'admin</label><br>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <label for="country">Pays de Résidence</label>
+                        <select name="country" id="country">
+                            <option value="France">France</option>
+                            <option value="Suisse">Suisse</option>
+                            <option value="Allemagne">Allemagne</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="CGU">Accepter les conditions général d'utilisateur</label>
+                        <input type="checkbox" id="CGU">
+                    </div>
+                    <div>
+                        <input type="submit">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
